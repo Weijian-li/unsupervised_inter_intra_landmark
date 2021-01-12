@@ -7,10 +7,10 @@ IAPR International Conference on Pattern Recognition (ICPR), 2020, Oral Presenta
 
 ### Introduction
 We propose an unsupervised learning approach to image landmark discovery by incorporating the inter-subject landmark consistencies on facial images.
-<!-- ![alt text](http://cs.rochester.edu/u/wli69/images/projects/ICPR-20.pdf
+<!-- ![alt text](http://cs.rochester.edu/u/wli69/images/projects/ICPR-20.png
 "Framework") -->
 <p align="center">
-  <img src="http://cs.rochester.edu/u/wli69/images/projects/ICPR-20.pdf" width="75%"/>
+  <img src="http://cs.rochester.edu/u/wli69/images/projects/ICPR-20.png" width="75%"/>
 </p>
 
 

@@ -13,6 +13,7 @@ We propose an unsupervised learning approach to image landmark discovery by inco
   <img src="http://cs.rochester.edu/u/wli69/images/projects/ICPR-20.png" width="75%"/>
 </p>
 
+
 The proposed core model block can be found [here](https://github.com/Weijian-li/unsupervised_inter_intra_landmark/blob/main/model.py#L184-L202)
 
 ### - Reference 
@@ -61,6 +62,14 @@ Then we can train a linear regressor and compute NME errors:
     ```
     python -f Exp_354 -e 33 -d MAFL -r 0.0001
     ```
+
+### Related Project
+``` 
+Structured Landmark Detection via Topology-Adapting Deep Graph Learning
+Weijian Li, Yuhang Lu, Kang Zheng, Haofu Liao, Chihung Lin, Jiebo Luo, Chi-Tung Cheng, Jing Xiao, Le Lu, Chang-Fu Kuo, Shun Miao
+ECCV 2020
+```
+[[paper]](https://arxiv.org/pdf/2004.08190.pdf)
 
 ### Credits
 The main structure of codes and checkpoints are provided by previous work:

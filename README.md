@@ -13,6 +13,8 @@ We propose an unsupervised learning approach to image landmark discovery by inco
   <img src="http://cs.rochester.edu/u/wli69/images/projects/ICPR-20.png" width="75%"/>
 </p>
 
+The proposed core model block can be found [here](https://github.com/Weijian-li/unsupervised_inter_intra_landmark/blob/main/model.py#L184-L202)
+
 ### - Reference 
 If you find our paper and repo useful, please cite our paper. Thanks!
 ``` 

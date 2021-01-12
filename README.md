@@ -64,13 +64,11 @@ Then we can train a linear regressor and compute NME errors:
     ```
 
 ### Related Project
-``` 
+ 
 Structured Landmark Detection via Topology-Adapting Deep Graph Learning
 Weijian Li, Yuhang Lu, Kang Zheng, Haofu Liao, Chihung Lin, Jiebo Luo, 
 Chi-Tung Cheng, Jing Xiao, Le Lu, Chang-Fu Kuo, Shun Miao
-ECCV 2020
-```
-[[paper]](https://arxiv.org/pdf/2004.08190.pdf)
+ECCV 2020, [[paper]](https://arxiv.org/pdf/2004.08190.pdf)
 
 ### Credits
 The main structure of codes and checkpoints are provided by previous work:

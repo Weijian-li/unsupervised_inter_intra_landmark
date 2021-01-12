@@ -35,6 +35,9 @@ If you find our paper and repo useful, please cite our paper. Thanks!
 
 * AFLW dataset: please download the [AFLW dataset](http://www.robots.ox.ac.uk/~vgg/research/unsupervised_landmarks/resources/aflw_release-2.zip), unzip and place it under ``./aflw_release-2``.
 
+* The pretrained checkpoint by [ESanchezLozano](https://github.com/ESanchezLozano) is placed in ``./checkpoint_fansoft/fan_109.pth`` which is a landmark detector pretrained on MPII human joint detection.
+
+
 
 
 

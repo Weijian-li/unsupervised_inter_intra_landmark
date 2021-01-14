@@ -34,24 +34,19 @@ The proposed core model block can be found [here](https://github.com/Weijian-li/
 
 To train the model, first train on the CelebA dataset:
 
-    ```
     python train.py --data_path celeba/Img/img_align_celeba_hq/ --cuda 1 --bSize 32 --num_workers 4
-    ```
+
 
 ### Testing
 
 The trained model is saved at ``./Exp_xxx``. To test the trained model, first we need to extract the detected results on target datasets, i.e. AFLW or MAFL, for both training and test partitions. The default number of keypoints N=10:
 
-    ```
     python extract_data.py -f Exp_354 -e 33 -c checkpoint_fansoft/fan_109.pth -d MAFL-train --data_path celeba/Img/img_align_celeba_hq/ --cuda 1
     python extract_data.py -f Exp_354 -e 33 -c checkpoint_fansoft/fan_109.pth -d MAFL-test --data_path celeba/Img/img_align_celeba_hq/ --cuda 1
-    ```
 
 Then we can train a linear regressor and compute NME errors:
 
-    ```
     python -f Exp_354 -e 33 -d MAFL -r 0.0001
-    ```
 
 ### - Reference 
 If you find our paper and repo useful, please cite our paper. Thanks!

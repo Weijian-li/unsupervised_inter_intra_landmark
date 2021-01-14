@@ -48,7 +48,7 @@ Then we can train a linear regressor and compute NME errors:
 
     python -f Exp_354 -e 33 -d MAFL -r 0.0001
 
-### - Reference 
+### Reference 
 If you find our paper and repo useful, please cite our paper. Thanks!
 ``` 
 @article{li2020unsupervised,

@@ -16,16 +16,6 @@ We propose an unsupervised learning approach to image landmark discovery by inco
 
 The proposed core model block can be found [here](https://github.com/Weijian-li/unsupervised_inter_intra_landmark/blob/main/model.py#L184-L202)
 
-### - Reference 
-If you find our paper and repo useful, please cite our paper. Thanks!
-``` 
-@article{li2020unsupervised,
-  title={Unsupervised Learning of Landmarks based on Inter-Intra Subject Consistencies},
-  author={Li, Weijian and Liao, Haofu and Miao, Shun and Lu, Le and Luo, Jiebo},
-  journal={arXiv preprint arXiv:2004.07936},
-  year={2020}
-}
-```
 
 ### Prerequisites
 
@@ -62,6 +52,17 @@ Then we can train a linear regressor and compute NME errors:
     ```
     python -f Exp_354 -e 33 -d MAFL -r 0.0001
     ```
+
+### - Reference 
+If you find our paper and repo useful, please cite our paper. Thanks!
+``` 
+@article{li2020unsupervised,
+  title={Unsupervised Learning of Landmarks based on Inter-Intra Subject Consistencies},
+  author={Li, Weijian and Liao, Haofu and Miao, Shun and Lu, Le and Luo, Jiebo},
+  journal={arXiv preprint arXiv:2004.07936},
+  year={2020}
+}
+```
 
 ### Related Project
  

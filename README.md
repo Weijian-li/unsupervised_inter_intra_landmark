@@ -73,8 +73,8 @@ Chi-Tung Cheng, Jing Xiao, Le Lu, Chang-Fu Kuo, Shun Miao
 European Conference on Computer Vision (ECCV), 2020, [[paper]](https://arxiv.org/pdf/2004.08190.pdf)
 
 ### Credits
-The main structure of codes and checkpoints are provided by previous work:
-[Object landmark discovery through unsupervised adaptation](https://github.com/ESanchezLozano/SAIC-Unsupervised-landmark-detection-NeurIPS2019)
+The code is based on previous work:
+[Object landmark discovery through unsupervised adaptation](https://github.com/ESanchezLozano/SAIC-Unsupervised-landmark-detection-NeurIPS2019). Thanks a lot for the sharing!
 
 
 
